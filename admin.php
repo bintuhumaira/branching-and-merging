@@ -2,7 +2,7 @@
 
 session_start();
 if($_SESSION['role'] != 'admin') {
-    header('Location:index.html');
+    header('Location:index.php');
 }
 
 ?>
