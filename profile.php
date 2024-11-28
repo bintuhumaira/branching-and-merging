@@ -3,7 +3,7 @@
 session_start();
 if($_SESSION['role'] != 'user') {
     echo "anda bukan role user";
-    header('Location:index.html');
+    header('Location:index.php');
 }
 
 ?>
